@@ -1,0 +1,28 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p::first-letter {
+  font-weight: bold;
+  color: red;
+  font-size: 28px;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::selection {
+  background-color: blue;
+  color: #ff0000;
+}
+
+span::before {
+  content: "😎 🥸 🤓";
+}
+
+span::after {
+  content: "🤓 🥸 😎";
+}
